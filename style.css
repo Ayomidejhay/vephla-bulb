@@ -1,0 +1,45 @@
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+
+body{
+ height:100% ;
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+main{
+ display:flex ;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ height: 100vh;
+}
+
+img{
+ width: 200px;
+ height: 250px;
+ margin-bottom: 50px;
+ transition: 0.5s ease-in-out;
+}
+
+button{
+ background-color: aqua;
+ color: white;
+ width: 100px;
+ padding: 10px;
+ border: 1px solid aqua;
+ border-radius: 10px;
+ margin: 10px;
+ font-weight: bold;
+ transition: 0.5s ease-in;
+ cursor: pointer;
+}
+
+button:hover{
+ transform: scaleY(1.2) scaleX(1.2);
+}
